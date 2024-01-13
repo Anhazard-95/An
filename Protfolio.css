@@ -283,7 +283,7 @@ html{
                 opacity: 0.80;
     }
 .services-list div:hover {
-        background-color: #a200ff;
+        background:linear-gradient(#a200ff,#957bf5) ;
         opacity: 1;
         transform: translateY(-20px);
 }
@@ -455,3 +455,126 @@ form .btn-2 {
 
 
 }
+
+
+/*==============HOVER SUB TITLE=============*/
+
+}
+.sub-title {
+    background-image: linear-gradient(
+      to right,
+      #bdedff,
+      #b6ecff 50%,
+      #ffffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 4px 0;
+    position: relative;
+    font-size: 35px;
+    font-size: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  
+  .sub-title:hover {
+   background-position: 0;
+  }
+  
+  .sub-title:hover::before{
+    width: 100%;
+  }
+  .sub-title-c {
+    background-image: linear-gradient(
+      to right,
+      #e4b6ff,
+      #cc96ff 50%,
+      #ffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 4px 0;
+    position: relative;
+    font-size: 35px;
+    font-size: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  
+  .sub-title-c:hover {
+   background-position: 0;
+  }
+  
+  .sub-title-c:hover::before{
+    width: 100%;
+  }
+  
+  .sub-title-t {
+    background-image: linear-gradient(
+      to right,
+      #ddb1ac,
+      #f5c4bf 50%,
+      #ffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 4px 0;
+    position: relative;
+    font-size: 35px;
+    font-size: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  
+  .sub-title-t:hover {
+   background-position: 0;
+  }
+  
+  .sub-title-t:hover::before{
+    width: 100%;
+  }
+
+  
+  .sub-title-v {
+    background-image: linear-gradient(
+      to right,
+      #c560ff,
+      #77b7ff 50%,
+      #ffff 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 4px 0;
+    position: relative;
+    font-size: 35px;
+    font-size: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  
+  .sub-title-v:hover {
+   background-position: 0;
+  }
+  
+  .sub-title-v:hover::before{
+    width: 100%;
+  }
+
+  
+  
