@@ -91,7 +91,15 @@ nav ul li a:hover::after{
 }
 .about-col-1 img {
         width: 400px;
+    transition:0.5s;
+        opacity: 0.90;
+        filter: grayscale(0.3);
    
+}
+.about-col-1 img:hover {
+    filter: grayscale(0);
+    filter: hue-rotate(50);
+    opacity: 1;  
 }
 .about-col-2 {
     flex-basis: 60%;
@@ -352,10 +360,11 @@ html{
     padding: 20px 40px;
     border-radius: 6px;
     font-size: 18px;
-    transition: background 0.5s;
+    transition: tansform 0.5s;
 }
 .btn:hover{
     background: #a200ff;
+    transform: scale(1.1);
 }
 button {
     font-size: 16px;
